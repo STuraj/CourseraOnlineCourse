@@ -1,3 +1,5 @@
+package module2;
+
 public class DataTest4 {
     public static void main(String[] args) {
         double[][] points = {

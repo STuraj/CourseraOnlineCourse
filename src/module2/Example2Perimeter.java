@@ -1,3 +1,5 @@
+package module2;
+
 public class Example2Perimeter {
     public static void main(String[] args) {
         double[][] points = {
