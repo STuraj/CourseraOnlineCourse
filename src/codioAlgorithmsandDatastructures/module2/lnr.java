@@ -1,4 +1,4 @@
-package codioAlgorithmsandDatastructures.module1.module2;
+package codioAlgorithmsandDatastructures.module2;
 
 public class lnr {
 

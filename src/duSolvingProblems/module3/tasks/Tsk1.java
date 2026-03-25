@@ -1,4 +1,4 @@
-package duSolvingProblems.module3;
+package duSolvingProblems.module3.tasks;
 
 //public class Tsk1 {
 //    public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package duSolvingProblems.module3.secondAssignments;
+package duSolvingProblems.module3.thirdAssignment;
 
-public class Part2 {
+public class Part1 {
     public void findAbc(String input) {
         int index = input.indexOf("abc");
         while (true) {
-            if (index == -1 || index >= input.length() - 3) {
+            if (index == -1) {
                 break;
             }
             String found = input.substring(index + 1, index + 4);
@@ -14,11 +14,12 @@ public class Part2 {
     }
 
     public void test() {
-        //findAbc("abcd");
+        findAbc("abcd");
         findAbc("abcdabc");
+     //   findAbc("abcdefabcghi");
     }
 
     public static void main(String[] args) {
-        new Part2().findAbc("");
+        new Part1().findAbc("abcdabc");
     }
 }

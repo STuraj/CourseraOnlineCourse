@@ -1,4 +1,4 @@
-package duSolvingProblems.module3;
+package duSolvingProblems.module3.tasks;
 
 public class Part3 {
     //Write the method named twoOccurrences that has two String parameters named stringa and stringb.

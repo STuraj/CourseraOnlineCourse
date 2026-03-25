@@ -1,4 +1,4 @@
-package duSolvingProblems.module3;
+package duSolvingProblems.module3.tasks;
 
 public class Part1 {
     // public static void findSimpleGene(String[] args) {

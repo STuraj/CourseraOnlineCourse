@@ -1,4 +1,4 @@
-package codioAlgorithmsandDatastructures.module1.module1;
+package codioAlgorithmsandDatastructures.module1;
 
 public class LinearSearch {
 

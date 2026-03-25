@@ -1,4 +1,4 @@
-package codioAlgorithmsandDatastructures.module1.module1;
+package codioAlgorithmsandDatastructures.module1;
 
 public class ProblemSolving {
     public static int search(String[] array, String target) {
