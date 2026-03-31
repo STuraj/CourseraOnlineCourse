@@ -1,4 +1,4 @@
-package duSolvingProblems.module3.thirdAssignment;
+package duSolvingProblems.module3.secondAssignment;
 
 public class Part2Task4 {
     public void findAbc(String input) {

@@ -1,4 +1,4 @@
-package duSolvingProblems.module3.secondAssignments;
+package duSolvingProblems.module3.firstAssignments;
 
 public class Part1 {
     public int findStopCodon(String dna, int startIndex, String stopCodon) {

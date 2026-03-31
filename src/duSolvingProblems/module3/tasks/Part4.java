@@ -1,4 +1,4 @@
-//package duSolvingProblems.duSolvingProblems.codioAlgorithmsandDatastructures.module3;
+//package duSolvingProblems.duSolvingProblems.codioAlgorithmsandDatastructures.usdOOPinJava.module1.module3;
 //
 //public class Part3 {
 //    URLResource file = new  URLResource("http://someURL");

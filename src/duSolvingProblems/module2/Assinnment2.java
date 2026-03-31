@@ -1,4 +1,4 @@
-//package duSolvingProblems.duSolvingProblems.codioAlgorithmsandDatastructures.codioAlgorithmsandDatastructures.module1.module1.module2;
+//package duSolvingProblems.duSolvingProblems.codioAlgorithmsandDatastructures.codioAlgorithmsandDatastructures.usdOOPinJava.module1.module1.usdOOPinJava.module1.module1.usdOOPinJava.module1.module2;
 //
 //public class Assinnment2 {
 //    public static <URLResource> void main(String[] args) {

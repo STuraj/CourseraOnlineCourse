@@ -1,27 +1,33 @@
 package duSolvingProblems.module3.thirdAssignment;
 
 public class Part2 {
-    public void findAbc(String input) {
-        int index = input.indexOf("abc");
-        while (true) {
-            if (index == -1 || index >= input.length() - 3) {
-                break;
+
+        public static float cgRatio(String dna) {
+            int countC = 0;
+            int countG = 0;
+
+            // Count C's and G's
+            for (int i = 0; i < dna.length(); i++) {
+                char ch = dna.charAt(i);
+                if (ch == 'C' || ch == 'G') {
+                    countC++;
+               
+                }
             }
-            System.out.println("abc found at index: " + index);
-            String found = input.substring(index + 1, index + 4);
-            System.out.println(found);
-            index = input.indexOf("abc", index + 3);
+
+            // Calculate total length
+            int totalLength = dna.length();
+
+            // Calculate the ratio
+            float ratio = (float) (countC + countG) / totalLength;
+
+            return ratio;
+        }
+
+        public static void main(String[] args) {
+            Part2 p = new Part2();
+
+            String dna = "ATGCCATAG";
+            System.out.println("C-G Ratio: " + cgRatio(dna)); // Output: C-G Ratio: 0.4444444
         }
     }
-
-    public void test() {
-        //findAbc("abcd");
-        findAbc("abcabcabcabca");
-    }
-
-    public static void main(String[] args) {
-        new Part2().findAbc("abcabcabcabca");
-
-
-    }
-}
