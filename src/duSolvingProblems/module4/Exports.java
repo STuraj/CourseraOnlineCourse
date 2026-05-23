@@ -23,7 +23,7 @@ public class Exports {
         }
                 public static void main (String[]args){
                     Exports obj = new Exports();
-                    FileResource fr = new FileResource("exportdata.csv");
+                    FileResource fr = new FileResource();
                     CSVParser parser = fr.getCSVParser();
                     obj.listExportersTwoProducts(parser, "gold", "diamonds");
                 }
