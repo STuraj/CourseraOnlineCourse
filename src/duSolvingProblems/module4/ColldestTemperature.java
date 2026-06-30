@@ -44,10 +44,6 @@ public class ColldestTemperature {
 
             return coldestSoFar;
         }
-
-        /**
-         * Test method for coldestHourInFile()
-         */
         public static void testColdestHourInFile() {
             try {
                 Reader reader = new FileReader("weather-data.csv"); // replace with your CSV file path
