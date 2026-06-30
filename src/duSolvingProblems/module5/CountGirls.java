@@ -1,19 +1,23 @@
-//package duSolvingProblems.module5;
-//
-//import org.apache.commons.csv.CSVRecord;
-//
-//public class CountGirls {
-//    int totalGirls = 0;
-//
-//for (
-//    CSVRecord record : parser) {
-//        String gender = record.get(1);
-//        int count = Integer.parseInt(record.get(2));
-//
-//        if (gender.equals("F")) {
-//            totalGirls += count;
-//        }
-//    }
-//
-//System.out.println(totalGirls);
-//}
+package duSolvingProblems.module5;
+
+import edu.duke.FileResource;
+import org.apache.commons.csv.CSVRecord;
+
+public class CountGirls {
+    public int countGirlsName(int year){
+        FileResource fr = new FileResource();
+        int count =0;
+        for(CSVRecord rec : fr.getCSVParser(false)){
+            if(rec.get(1).equals("F")){
+                count++;
+            }
+        }
+
+        return count;
+    }
+    public void testCountGirlsName(){
+        int count = countGirlsName(1900);
+
+        System.out.println(count);
+    }
+}
